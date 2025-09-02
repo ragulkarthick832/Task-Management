@@ -18,7 +18,7 @@ cd frontend
 npm install
 npm run dev
 ```
-Runs on: [http://localhost:5173/](http://localhost:8080/) 
+Runs on: [http://localhost:8080/](http://localhost:8080/) 
 
 ### 3. Backend Setup
 ```sh
