@@ -18,7 +18,7 @@ cd frontend
 npm install
 npm run dev
 ```
-Runs on: [http://localhost:5173/](http://localhost:5173/) (by default)
+Runs on: [http://localhost:5173/](http://localhost:8080/) 
 
 ### 3. Backend Setup
 ```sh
@@ -26,7 +26,7 @@ cd backend
 npm install
 npm start
 ```
-Runs on: [http://localhost:5000/](http://localhost:5000/) (by default)
+Runs on: [http://localhost:5000/](http://localhost:5000/) 
 
 ---
 
@@ -34,8 +34,8 @@ Runs on: [http://localhost:5000/](http://localhost:5000/) (by default)
 ```plaintext
 Task-Management/
 │
-├── frontend/   # React + Vite frontend
-└── backend/    # Express + MongoDB backend
+├── frontend/   # React + Vite + Typescript + Tailwind frontend
+└── backend/    # Express  backend
 ```
 
 ---
@@ -43,16 +43,16 @@ Task-Management/
 ## 🛠 Features
 - Add, edit, delete tasks  
 - Mark tasks as complete/incomplete  
-- Backend API for persistent storage  
+- Backend API
 - Responsive UI with React + Tailwind  
 
 ---
 
 ## 🔮 Future Updates
-- Sync between **local storage** and **online database (MongoDB)**  
+- usage of either **local storage** and **online database (MongoDB)**  
 - Offline-first support (tasks can be created offline and synced when online)  
 - User authentication (login/signup with JWT)  
-- Deployment to cloud (Render/Netlify/Vercel + MongoDB Atlas)  
+- Deployment to cloud (AWS / GCP / Azure)  
 
 ---
 
